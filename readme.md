@@ -1,10 +1,11 @@
-📊 Telemetry Cyber Resilience Calculator
+### 📊 Telemetry Cyber Resilience Calculator
 
 A modern Tkinter + ttkbootstrap application for computing and visualizing Telemetry-Based Cyber Resilience Metrics.
 
-🏷️ Badges
+### 🏷️ Badges
 <p align="left"> <!-- Python version --> <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white" alt="Python Version"> <!-- License --> <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License"> <!-- Platform --> <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey" alt="Platform"> <!-- Tkinter / ttkbootstrap --> <img src="https://img.shields.io/badge/UI-ttkbootstrap-blueviolet?logo=windowsterminal&logoColor=white" alt="UI"> <!-- Maintained --> <img src="https://img.shields.io/badge/Maintained-Yes-success" alt="Maintained"> <!-- Stars placeholder --> <img src="https://img.shields.io/github/stars/YourUser/YourRepoName?style=social" alt="Stars"> </p>
-🎯 What Is This?
+
+### 🎯 What Is This?
 
 The Telemetry Cyber Resilience Calculator (T-CRI) is a desktop tool that computes a weighted cyber-resilience index from telemetry-driven metrics.
 It allows analysts, engineers, or researchers to quickly:
@@ -23,21 +24,22 @@ Customize appearance using themes
 
 Built with Python, Tkinter, ttkbootstrap, and Matplotlib — no web server, no browser, no dependencies beyond Python.
 
-✨ Features
-📌 Core Metrics
+### ✨ Features
+## 📌 Core Metrics
 
 Each system row includes:
 
-Metric	Description
-DAR	Disturbance Absorption Ratio
-MTTD_T	Mean Time to Telemetry Detection
-ARAT	Automated Response Activation Time
-DRE	Dynamic Reconfiguration Efficiency
-CWRT	Critical Workflow Recovery Time
+| Metric | Description |
+|-|-|
+| DAR	 |Disturbance Absorption Ratio |
+| MTTD_T |	Mean Time to Telemetry Detection |
+| ARAT	 | Automated Response Activation Time |
+| DRE	 | Dynamic Reconfiguration Efficiency |
+| CWRT	 | Critical Workflow Recovery Time |
 
 All are normalized and weighted before computing T-CRI.
 
-🎚️ Dynamic Weighting System
+### 🎚️ Dynamic Weighting System
 
 Adjustable UI sliders (0 - 1)
 
@@ -47,16 +49,16 @@ Auto-balancing: total weight capped at 1.0
 
 Optionally override weights via CSV (*_WT columns)
 
-📁 CSV Import / Export
+### 📁 CSV Import / Export
 
 Supports two types:
 
-1️⃣ Standard CSV:
+## 1️⃣ Standard CSV:
 
 CSName, DAR, MTTD_T, ARAT, DRE, CWRT
 
 
-2️⃣ Enhanced CSV with weights:
+## 2️⃣ Enhanced CSV with weights:
 
 DAR_WT, MTTD_WT, ARAT_WT, DRE_WT, CWRT_WT
 
@@ -65,7 +67,7 @@ Exports results as:
 
 <file>_telemetry.csv
 
-📊 Graphing Dashboard
+### 📊 Graphing Dashboard
 
 Built-in Matplotlib graph types:
 
